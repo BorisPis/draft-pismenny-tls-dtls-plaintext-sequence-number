@@ -9,19 +9,19 @@ number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
+area: "Security"
+workgroup: "Transport Layer Security"
 keyword:
  - next generation
  - unicorn
  - sparkling distributed ledger
 venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+  group: "Transport Layer Security"
+  type: "Working Group"
+  mail: "tls@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/tls/"
+  github: "BorisPis/draft-pismenny-tls-dtls-plaintext-sequence-number"
+  latest: "https://BorisPis.github.io/draft-pismenny-tls-dtls-plaintext-sequence-number/draft-pismenny-tls-dtls-plaintext-sequence-number.html"
 
 author:
  -
