@@ -77,9 +77,9 @@ struct {
 } SupportedSequenceNumberEncryptionAlgorithms;
 ~~~~
 
-> OPEN: This extension might fit nicely with the TLS flags extension
-> {{!I-D.draft-ietf-tls-tlsflags}}, but TLS flags doesn't seem to apply to
-> DTLS.
+[comment]: > OPEN: This extension might fit nicely with the TLS flags extension
+[comment]: > {{!I-D.draft-ietf-tls-tlsflags}}, but TLS flags doesn't seem to apply to
+[comment]: > DTLS.
 
 The "sequence_number_encryption_algorithms" extension is used by the client
 to specify the record sequence number encryption algorithms it supports
@@ -90,11 +90,6 @@ preferred algorithm.
 If this extension is not present, in either ClientHello or
 EncryptedExtensions, then both parties MUST fallback to the
 default record sequence number encryption algorithm.
-
-> OPEN: Do we want an encrypted extension for the server's response?
-> It is possible to use an encrypted extension, by using the default
-> record sequence encryption algorithm prior to epoch 3 (epoch < 3), and
-> enabling the selected algorithm only after epoch 3 (epoch >= 3).
 
 # Security Considerations
 
