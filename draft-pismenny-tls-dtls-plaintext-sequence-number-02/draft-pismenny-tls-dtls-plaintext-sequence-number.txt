@@ -4,8 +4,8 @@
 
 TLS Working Group                                            B. Pismenny
 Internet-Draft                                                    NVIDIA
-Intended status: Standards Track                           11 April 2023
-Expires: 13 October 2023
+Intended status: Standards Track                         19 October 2023
+Expires: 21 April 2024
 
 
   Plaintext Sequence Numbers for Datagram Transport Security Layer 1.3
@@ -34,7 +34,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 13 October 2023.
+   This Internet-Draft will expire on 21 April 2024.
 
 Copyright Notice
 
@@ -147,9 +147,9 @@ Table of Contents
 
    [I-D.draft-ietf-tls-tlsflags]
               Nir, Y., "A Flags Extension for TLS 1.3", Work in
-              Progress, Internet-Draft, draft-ietf-tls-tlsflags-11, 27
-              January 2023, <https://datatracker.ietf.org/doc/html/
-              draft-ietf-tls-tlsflags-11>.
+              Progress, Internet-Draft, draft-ietf-tls-tlsflags-12, 23
+              July 2023, <https://datatracker.ietf.org/doc/html/draft-
+              ietf-tls-tlsflags-12>.
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
